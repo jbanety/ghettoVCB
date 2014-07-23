@@ -11,7 +11,7 @@ LAST_MODIFIED_DATE=2013_26_11
 VERSION=2
 
 # directory that all VM backups should go (e.g. /vmfs/volumes/SAN_LUN1/mybackupdir)
-VM_BACKUP_VOLUME=/vmfs/volumes/mini-local-datastore-2/backups
+VM_BACKUP_VOLUME=/vmfs/volumes/SAN1
 
 # Format output of VMDK backup
 # zeroedthick
@@ -41,13 +41,13 @@ ITER_TO_WAIT_SHUTDOWN=3
 POWER_DOWN_TIMEOUT=5
 
 # enable compression with gzip+tar 1=on, 0=off
-ENABLE_COMPRESSION=0
+ENABLE_COMPRESSION=1
 
 # Include VMs memory when taking snapshot
 VM_SNAPSHOT_MEMORY=0
 
 # Quiesce VM when taking snapshot (requires VMware Tools to be installed)
-VM_SNAPSHOT_QUIESCE=0
+VM_SNAPSHOT_QUIESCE=1
 
 # default 15min timeout
 SNAPSHOT_TIMEOUT=15
