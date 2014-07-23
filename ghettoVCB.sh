@@ -41,7 +41,7 @@ ITER_TO_WAIT_SHUTDOWN=3
 POWER_DOWN_TIMEOUT=5
 
 # enable compression with gzip+tar 1=on, 0=off
-ENABLE_COMPRESSION=1
+ENABLE_COMPRESSION=0
 
 # Include VMs memory when taking snapshot
 VM_SNAPSHOT_MEMORY=0
